@@ -20,7 +20,7 @@ const weekData = [
                                     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFMXPSGSEE&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                                 </iframe>
                             </div>
-                            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFMXPSGSEE&#x2F;view?utm_content=DAFMXPSGSEE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">VTF_LIVE_Sep 16</a> by Victor Monga
+                            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFMXPSGSEE&#x2F;view?utm_content=DAFMXPSGSEE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">VTF_LIVE_Sep 16</a> 
                             <br>
                             <br>
                             <li class="inside-text">
