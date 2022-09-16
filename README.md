@@ -1,3 +1,3 @@
 # VTF-Weekly-Digest
 
-Live Link: 
+Live Link: https://vtfoundation.github.io/weekly_digest/
