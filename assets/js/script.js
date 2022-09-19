@@ -227,9 +227,9 @@ const weekData = [
                                     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFMXPSGSEE&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                                 </iframe>
                             </div>
-                            <a style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; background-color: #0d6efd; font-weight:400; border-color: #0d6efd; " 
-                            href="https://youtu.be/zO0Ht5DPybc" target="_blank" rel="noopener">VTF-LIVE Sep 16</a>
-                            
+                           
+                            <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
+                            href="https://youtu.be/zO0Ht5DPybc" target="_blank">VTF-LIVE Sep 16</a>
                             <br>
                             <br>
                             <li class="inside-text">
