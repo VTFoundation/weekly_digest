@@ -228,7 +228,7 @@ const weekData = [
                                 </iframe>
                             </div>
                            
-                            <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
+                            <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; text-decoration: none; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
                             href="https://youtu.be/zO0Ht5DPybc" target="_blank">VTF-LIVE Sep 16</a>
                             <br>
                             <br>
