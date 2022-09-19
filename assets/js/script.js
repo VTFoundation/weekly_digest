@@ -20,8 +20,8 @@ const weekData = [
                                     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFMXPSGSEE&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                                 </iframe>
                             </div>
-                            <button style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; background-color: #0d6efd; font-weight:400; border-color: #0d6efd; " 
-                            href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFMXPSGSEE&#x2F;view?utm_content=DAFMXPSGSEE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">VTF-LIVE Sep 16</button>
+                            <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; text-decoration: none; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
+                            href="https://youtu.be/zO0Ht5DPybc" target="_blank">VTF-LIVE Sep 16</a>
                             <br>
                             <br>
                             <li class="inside-text">
@@ -222,7 +222,7 @@ const weekData = [
                         html: `
                             
                             <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; text-decoration: none; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
-                            href="https://youtu.be/zO0Ht5DPybc" target="_blank">VTF-LIVE Sep 23</a>
+                            href="https://www.linkedin.com/company/vtfoundation/mycompany/" target="_blank">VTF-LIVE Sep 23</a>
                             <br>
                             <br>
                             <li class="inside-text">
