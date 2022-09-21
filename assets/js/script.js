@@ -232,7 +232,7 @@ const weekData = [
                                 <p>Vulnerability Management for Dummies: <a href="https://media-exp1.licdn.com/dms/document/C561FAQGizZFT2nyJEA/feedshare-document-pdf-analyzed/0/1654516170886?e=1658361600&v=beta&t=_TjpM2-UMjV9sYL9C4WpoSXlWnkCvgpzlNgCRP1HZwE">https://media-exp1.licdn.com/dms/document/C561FAQGizZFT2nyJEA/feedshare-document-pdf-analyzed/0/1654516170886?e=1658361600&v=beta&t=_TjpM2-UMjV9sYL9C4WpoSXlWnkCvgpzlNgCRP1HZwE</a></p>
                             </li>
                             <li class="inside-text">
-                                <p>Vulnerability-Assessment-Framework - <a href="https://github.com/Acheron-VAF/Vulnerability-Assessment-Framework"></a></p>
+                                <p>Vulnerability-Assessment-Framework - <a href="https://github.com/Acheron-VAF/Vulnerability-Assessment-Framework">https://github.com/Acheron-VAF/Vulnerability-Assessment-Framework</a></p>
                             </li>
                             <li class="inside-text">
                                 <p>Vulnerability Management - <a href="https://www.cisa.gov/sites/default/files/publications/CRR_Resource_Guide-VM_0.pdf">https://www.cisa.gov/sites/default/files/publications/CRR_Resource_Guide-VM_0.pdf</a></p>
