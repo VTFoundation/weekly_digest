@@ -1,5 +1,5 @@
 
-const currWeek = 2;
+const currWeek = 3;
 let modalOpen = false;
 
 const weekData = [
@@ -342,6 +342,10 @@ const weekData = [
                     {
                         title: "Topics",
                         html: `
+                            <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; text-decoration: none; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
+                            href="https://www.linkedin.com/company/vtfoundation/mycompany/" target="_blank">VTF-LIVE Sep 30</a>
+                            <br>
+                            <br>
                             <li class="inside-text">
                                 <p>The Complete Open Source Intelligence (OSINT) Training Course - <a href="https://www.youtube.com/watch?v=opLD4zFB5z0">https://www.youtube.com/watch?v=opLD4zFB5z0</a></p>
                             </li>
