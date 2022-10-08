@@ -1,5 +1,5 @@
 
-const currWeek = 4;
+const currWeek = 5;
 let modalOpen = false;
 
 const weekData = [
@@ -616,6 +616,10 @@ const weekData = [
                     {
                         title: "Topics",
                         html: `
+                            <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; text-decoration: none; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
+                            href="https://www.linkedin.com/company/vtfoundation/mycompany/" target="_blank">VTF-LIVE Oct 14</a>
+                            <br>
+                            <br>
                             <li class="inside-text">
                                 <p>Windows</p>
                                 <ol type=a>
