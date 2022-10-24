@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Apply for Internship</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet" />
+
+    <!--<link rel="icon" href="/vtf/assets/img/logo.png" />
+
+    <link rel="stylesheet" href="/vtf_weekly/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/vtf_weekly/assets/css/style.css" />
+
+    <script type="text/javascript" src="/vtf_weekly/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/vtf_weekly/assets/js/script.js"></script>-->
+  
+    <link rel="icon" href="assets/img/logo.png" />
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="linkedin" viewBox="0 0 16 16">
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+          fill="#0072b1"
+        />
+      </symbol>
+      <symbol id="youtube" viewBox="0 0 16 16">
+        <path
+          d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+          fill="red"
+        />
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 16 16">
+        <path
+          d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+          fill="#00acee"
+        />
+      </symbol>
+      <symbol id="discord" viewBox="0 0 16 16">
+        <path
+          d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"
+          fill="#7289d9"
+        />
+      </symbol>
+    </svg>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo" style="display: inline-flex; align-items: center">
+                    <img src="./assets/img/logo.png" height="35" width="35" alt="logo" />
+                    <a class="navbar-brand" href="https://virtuallytestingfoundation.org/">
+                        Virtually Testing Foundation
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <span class="me-auto"></span>
+                    <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://virtuallytestingfoundation.org/">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Position
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="/beginner/apply/for-internship">Information Security Administrator Internship</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/beginner/apply/for-internship">CyberSecurity Beginner Internship</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://vtfbeginnertrack.on.spiceworks.com/portal">Contact us</a
+                            >
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                            class="nav-link"
+                            href="https://virtuallytestingfoundation.org#about-us"
+                            >About us</a
+                            >
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="speaker.html">Guest Speaker</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <iframe id="myLoaderIframe" src="https://virtuallytestingfoundation.org/site-default-loader" title="loading...">
+    </iframe>
+
+    <main class="page">
+        <section class="pageContainer">
+            <div class="hero-image">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div class=" px-4 py-5 my-5 text-center">
+                    <h1 class=" fw-bold">Our Guest Speaker</h1>
+                    <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4"><strong>Dive into all the technical talks, labs certifications, best practice sessions and more.</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-1">
+                <h2>Presentation Links</h2>
+                <br>
+                <!-- Nav pills -->
+                <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="pill" href="#prof">Professor Garcia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
+                </li>
+                </ul>
+            
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="prof" class="container tab-pane active"><br>
+                        <div class="row">
+                            <div class="col-4 col-lg-5">
+                                <p><strong>CyberSecurity 101</strong></p>
+                                <p> 
+                                    <a href="/assets/pdf/Cybersecurity 101.pdf">
+                                        <svg viewBox="0 0 16 16" class="file" style="width: 10%; height: 10%; display: block; fill: inherit; flex-shrink: 0; backface-visibility: hidden;">
+                                        <path d="M4.35645 15.4678H11.6367C13.0996 15.4678 13.8584 14.6953 13.8584 13.2256V7.02539C13.8584 6.0752 13.7354 5.6377 13.1406 5.03613L9.55176 1.38574C8.97754 
+                                        0.804688 8.50586 0.667969 7.65137 0.667969H4.35645C2.89355 0.667969 2.13477 1.44043 2.13477 2.91016V13.2256C2.13477 14.7021 2.89355 15.4678 4.35645 15.4678ZM4.46582 
+                                        14.1279C3.80273 14.1279 3.47461 13.7793 3.47461 13.1436V2.99219C3.47461 2.36328 3.80273 2.00781 4.46582 2.00781H7.37793V5.75391C7.37793 6.73145 7.86328 7.20312 8.83398 
+                                        7.20312H12.5186V13.1436C12.5186 13.7793 12.1836 14.1279 11.5205 14.1279H4.46582ZM8.95703 6.02734C8.67676 6.02734 8.56055 5.9043 8.56055 5.62402V2.19238L12.334 6.02734H8.95703ZM8.59473 
+                                        12.7266V10.6279L8.54004 9.56152L9.06641 10.1152L9.59277 10.6484C9.68848 10.7646 9.8457 10.833 9.98926 10.833C10.2969 10.833 10.5293 10.6143 10.5293 10.3066C10.5293 10.1357 10.4678 10.0127 
+                                        10.3379 9.90332L8.45117 8.16699C8.29395 8.02344 8.16406 7.96191 7.99316 7.96191C7.8291 7.96191 7.69922 8.02344 7.54199 8.16699L5.65527 9.90332C5.52539 10.0127 5.46387 10.1357 5.46387 
+                                        10.3066C5.46387 10.6143 5.68945 10.833 6.00391 10.833C6.14746 10.833 6.29785 10.7646 6.40039 10.6484L6.92676 10.1152L7.45312 9.56152L7.39844 10.6279V12.7266C7.39844 13.0547 7.67188 
+                                        13.3008 7.99316 13.3008C8.32129 13.3008 8.59473 13.0547 8.59473 12.7266Z"></path>
+                                        </svg>
+                                    </a>
+                                    Click to View/Download PDF file
+
+                                </p>
+                            </div>
+            
+
+                            <div class="col-8 col-lg-7 mt-4">
+                                <ul>
+                                    <li>
+                                        <p>Microsoft Digital Defense Report - <a href="https://www.microsoft.com/en-us/security/business/microsoft-digital-defense-report?rtc=1#areaheading-occ590">https://www.microsoft.com/en-us/security/business/microsoft-digital-defense-report?rtc=1#areaheading-occ590</a></p>
+                                        <p>Cyberseek.org - <a href="https://Cyberseek.org"> https://Cyberseek.org</p>
+                                    </li>
+                                    <li>
+                                        <p>NSA Manageable Network Plan - <a href="https://cps-vo.org/node/17097">https://cps-vo.org/node/17097</a></p>
+                                    </li>
+                                    <li>
+                                        <p>National Initiative for Cybersecurity Education (NICE) framework - <a href="https://www.nist.gov/itl/applied-cybersecurity/nice">https://www.nist.gov/itl/applied-cybersecurity/nice</a></p>
+                                    </li>
+                                    <li>
+                                        <p>CISO MindMap - <a href="http://rafeeqrehman.com/">http://rafeeqrehman.com/</a></p>
+                                    </li>
+                                    <li>
+                                        <p>Information Systems Security Association - <a href="https://www.issa.org/">https://www.issa.org/</a></p>
+                                    </li>
+                                    <li>
+                                        <p>Indeed.com search Tech support, help desk, Internships, etc </p>
+                                    </li>
+                                    <li>
+                                        <p>Blog – Start Infosec Career – Really good write up on Career development - <a href="https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/">https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/</a></p>
+                                    </li>
+                                    <li>
+                                        <p>Daniel Miessler, How to Build a Cybersecurity Career - <a href="https://danielmiessler.com/blog/build-successful-infosec-career">https://danielmiessler.com/blog/build-successful-infosec-career</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <div id="menu1" class="container tab-pane fade"><br>
+                    <h3>Menu 1</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <h3>Menu 2</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="d-flex py-3 border-top">
+        <div class="container">
+            <div class="row">
+                <span class="col-sm-7">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <img alt="banner" src="./assets/img/logo.png" class="bi me-2" width="30" height="30"><use xlink:href="#bootstrap"/></img>
+                    </a>
+                    <span class="mt-2 text-muted">&copy; 2022 | POWERED BY VTF</span>
+                </span>
+                <ul class="nav col-sm-5 mt-2 d-flex justify-content-end list-unstyled">
+                    <li class="ms-2"><a class="text-muted" href="https://www.linkedin.com/company/vtfoundation/mycompany/"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
+                    <li class="ms-2"><a class="text-muted" href="https://twitter.com/VTFoundation"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                    <li class="ms-2"><a class="text-muted" href="https://www.youtube.com/c/VTFoundation"><svg class="bi" width="24" height="24"><use xlink:href="#youtube"/></svg></a></li>
+                    <li class="ms-2"><a class="text-muted" href="https://discord.com/channels/905480884759707688/920556565277319188"><svg class="bi" width="24" height="24"><use xlink:href="#discord"/></svg></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script type="text/javascript">
+        document.onreadystatechange = function() {
+            if (document.readyState === "complete") {
+                document.querySelector("#myLoaderIframe").remove();
+            }
+        };
+    </script>
+
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+</body>
+
+</html>
