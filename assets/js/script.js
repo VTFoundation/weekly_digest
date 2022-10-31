@@ -997,6 +997,10 @@ const weekData = [
                     {
                         title: "Topics",
                         html: `
+                            <a role="button" style="padding:2px 2px; font-size: 1rem; border-radius: 8px; margin-left: 25%; color: #fff; text-decoration: none; background-color: #0d6efd; font-weight:400; border-color: #0d6efd;" 
+                            href="https://www.linkedin.com/company/vtfoundation/mycompany/" target="_blank">VTF-LIVE Nov 4</a>
+                            <br>
+                            <br>
                             <li class="inside-text">
                                 <p><a href="https://collabnix.com/docker-cheatsheet/">https://collabnix.com/docker-cheatsheet/</a></p>
                             </li>
@@ -1337,7 +1341,7 @@ $(document).mouseup(function(e) {
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 28, 2022 17:00:00").getTime();
+var countDownDate = new Date("Nov 4, 2022 17:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
