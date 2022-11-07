@@ -1005,7 +1005,7 @@ const weekData = [
                                 <p><a href="https://collabnix.com/docker-cheatsheet/">https://collabnix.com/docker-cheatsheet/</a></p>
                             </li>
                             <li class="inside-text">
-                                <p><a href="https://github.com/David-VTUK/CKA-StudyGuide"></a></p>
+                                <p><a href="https://github.com/David-VTUK/CKA-StudyGuide">https://github.com/David-VTUK/CKA-StudyGuide</a></p>
                             </li>
                             <li class="inside-text">
                                 <p><a href="https://blog.cloudnativefolks.org/introduction-to-kubernetes-part-3-pods-scheduling-sequence">https://blog.cloudnativefolks.org/introduction-to-kubernetes-part-3-pods-scheduling-sequence</a></p>
@@ -1081,7 +1081,7 @@ const weekData = [
                                 <p><a href="https://m.youtube.com/c/LearnCantrill/playlists">https://m.youtube.com/c/LearnCantrill/playlists</a></p>
                             </li>
                             <li class="inside-text">
-                                <p><a href="https://github.com/acantril/learn-cantrill-io-labs"></a></p>
+                                <p><a href="https://github.com/acantril/learn-cantrill-io-labs">https://github.com/acantril/learn-cantrill-io-labs</a></p>
                             </li>
                             <li class="inside-text">
                                 <p>Navigator - <a href="https://atlas.mitre.org/navigator/">https://atlas.mitre.org/navigator/</a></p>
